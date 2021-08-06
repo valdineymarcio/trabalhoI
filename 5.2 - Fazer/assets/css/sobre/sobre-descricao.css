@@ -1,0 +1,15 @@
+h6{
+    font: bold 160% Calibri, Sans-Serif;
+    text-align: center;
+    color: gray;
+    margin: auto;
+    padding: 10px;
+}
+@media (max-width: 857px){
+    h6{
+        margin-top: 6%;
+        text-align: center;
+        font-size: 15px;
+
+    }
+}

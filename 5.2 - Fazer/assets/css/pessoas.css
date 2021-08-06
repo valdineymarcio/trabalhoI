@@ -1,0 +1,23 @@
+.pessoas{
+    padding-left: 18%;
+    display: inline-block;
+}
+
+
+
+@media screen and (min-width: 0) {
+    .pessoas{
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pessoas{
+        width: 100% ;
+        text-align: center;
+        padding-left: 25%;
+
+    }
+
+}
+
+

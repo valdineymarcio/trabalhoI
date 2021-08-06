@@ -1,0 +1,53 @@
+.cabecalho {
+
+    background: white;
+    height: 100px;
+
+}
+.body{
+
+background-color: white;
+}
+.logo{
+/ELEMENTE IMBUTIDO/
+display: inline;
+    height: 100px;
+/PREENCHIMENTO/
+padding:15px;
+}
+.logo img{
+    height: 100%;
+}
+.menu{
+display: inline;
+/posicão do menu/
+float: right;
+    height: 100px;
+    padding:25px;
+}
+.menu ul{
+    margin:0;
+    background-color:white;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color:	#A9A9A9 ;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #696969	;
+}
+*{
+    box-sizing: border-box;
+}
+@media  {
+
+}

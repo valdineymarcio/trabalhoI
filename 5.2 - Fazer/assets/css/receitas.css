@@ -1,0 +1,28 @@
+.receitas {
+
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    background-color: gainsboro;
+}
+
+@media screen and (min-width: 0) {
+
+    .receitas{
+        width: 50%;
+    }
+    @media screen and (min-width: 600px) {
+
+        .receitas{
+            width: 100%;
+
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .receitas{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+}

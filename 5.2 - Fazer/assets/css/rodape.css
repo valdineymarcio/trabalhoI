@@ -1,0 +1,35 @@
+@media screen and (min-width: 0) {
+    .rodape {
+        width: 100%;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        width: 100%;
+    }
+}
+.rodape {
+    position:absolute;
+    background: lightgrey;
+    width: 100%;
+    text-align: end;
+}
+
+.final{
+    display: inline-block;
+    float: right;
+    height: 100%;
+}
+.final ul{
+    margin:0;
+
+    list-style: none;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+.final ul li{
+    display: inline;
+}

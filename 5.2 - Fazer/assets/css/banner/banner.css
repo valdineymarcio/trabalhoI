@@ -1,0 +1,15 @@
+.banner{
+    width: 100%;
+    float: left;
+
+}
+
+
+@media screen and (min-width:0){
+    .banner{
+        width: 100%;
+        float: left;
+    }
+
+
+}
